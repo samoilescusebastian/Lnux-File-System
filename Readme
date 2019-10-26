@@ -1,0 +1,27 @@
+--------------------------------------
+--------------------------------------
+            NUME
+            GRUPA 
+            TEMA 03 SD
+--------------------------------------
+--------------------------------------
+
+---> Pentru implementare folosim un trie in nodurile caruia retinem caractere
+     Pentru fiecare nod retinem de asemnea un vector de copii(alocat dinamic),
+     marcam sfarsitul unui fisier si retinem si alte informatii necesare.
+
+---> In rezolvarea temei am incercat sa folosesc cat mai mult programarea recursiva
+     care se potriveste pentru trie uri.
+
+---> Pentru comanda de ls construiesc mai multe caii,in mod recursiv, dar le afisez
+     doar pe cele ce se termina cu '/' sau cu '*'
+
+---> Pentru comenziile de mkdir si touch ma folosesc de functia de adaugare a unei chei
+     in trie (in functie de tipul functiei se adauga '/' sau '*')
+
+---> Functia de cd se bazeaza prin a ma plimba prin trie dupa o anumita cheie
+
+---> Pe baza de cd realizez si alte functii (ls, rmdir, rm, mv, cp)
+
+---> Functiile de mv si cp se bazeaza prin a adauga o anumita cheie la o alta
+     adresa
